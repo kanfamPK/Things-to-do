@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 2s linear;
   height: 40vmin;
   pointer-events: none;
 }
@@ -30,4 +33,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  display: flex;
+  padding: 3px;
+}
+.Header input {
+  margin-left: 6px;
+  flex-grow: 1;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  border: none;
+}
+.Header input:focus{
+  outline: none;
+}
+::placeholder{
+  opacity: 0.3;
 }
