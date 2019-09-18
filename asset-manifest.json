@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kanfamPK/Things-to-do/static/css/main.f2d02ff1.chunk.css",
-    "main.js": "/kanfamPK/Things-to-do/static/js/main.37affc90.chunk.js",
-    "main.js.map": "/kanfamPK/Things-to-do/static/js/main.37affc90.chunk.js.map",
-    "runtime~main.js": "/kanfamPK/Things-to-do/static/js/runtime~main.38491181.js",
-    "runtime~main.js.map": "/kanfamPK/Things-to-do/static/js/runtime~main.38491181.js.map",
-    "static/js/2.767bb848.chunk.js": "/kanfamPK/Things-to-do/static/js/2.767bb848.chunk.js",
-    "static/js/2.767bb848.chunk.js.map": "/kanfamPK/Things-to-do/static/js/2.767bb848.chunk.js.map",
-    "index.html": "/kanfamPK/Things-to-do/index.html",
-    "precache-manifest.58672c630029ae92cfa8c0f284ff49ed.js": "/kanfamPK/Things-to-do/precache-manifest.58672c630029ae92cfa8c0f284ff49ed.js",
-    "service-worker.js": "/kanfamPK/Things-to-do/service-worker.js",
-    "static/css/main.f2d02ff1.chunk.css.map": "/kanfamPK/Things-to-do/static/css/main.f2d02ff1.chunk.css.map",
-    "static/media/check-done.svg": "/kanfamPK/Things-to-do/static/media/check-done.d29f1779.svg",
-    "static/media/check.svg": "/kanfamPK/Things-to-do/static/media/check.40eb9cc6.svg",
-    "static/media/down-arrow.svg": "/kanfamPK/Things-to-do/static/media/down-arrow.d51c4cbd.svg"
+    "main.css": "/Things-to-do/static/css/main.f2d02ff1.chunk.css",
+    "main.js": "/Things-to-do/static/js/main.b50c5005.chunk.js",
+    "main.js.map": "/Things-to-do/static/js/main.b50c5005.chunk.js.map",
+    "runtime~main.js": "/Things-to-do/static/js/runtime~main.e16aad83.js",
+    "runtime~main.js.map": "/Things-to-do/static/js/runtime~main.e16aad83.js.map",
+    "static/js/2.767bb848.chunk.js": "/Things-to-do/static/js/2.767bb848.chunk.js",
+    "static/js/2.767bb848.chunk.js.map": "/Things-to-do/static/js/2.767bb848.chunk.js.map",
+    "index.html": "/Things-to-do/index.html",
+    "precache-manifest.8a779dd261a5db23fb1f4fd8e651e4e9.js": "/Things-to-do/precache-manifest.8a779dd261a5db23fb1f4fd8e651e4e9.js",
+    "service-worker.js": "/Things-to-do/service-worker.js",
+    "static/css/main.f2d02ff1.chunk.css.map": "/Things-to-do/static/css/main.f2d02ff1.chunk.css.map",
+    "static/media/check-done.svg": "/Things-to-do/static/media/check-done.d29f1779.svg",
+    "static/media/check.svg": "/Things-to-do/static/media/check.40eb9cc6.svg",
+    "static/media/down-arrow.svg": "/Things-to-do/static/media/down-arrow.d51c4cbd.svg"
   }
 }
