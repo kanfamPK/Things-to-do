@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Input } from "reactstrap";
+
 import TodoItem from './components/TodoItem.js';
 import './components/todoItem.css';
 import TrafficLight from './components/TrafficLight.js';
@@ -66,19 +68,27 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App container">
         <p id="react-version">{React.version}</p>
         <div className="Header">
           <img src={DownArrow} width={32} />
-          <input type="text" value={this.state.newItem} placeholder="Thêm việc cần làm ....." onKeyUp={this.onKeyUp.bind(this)} onChange={this.onChange.bind(this)} />
+          <Input id="firstInput" type="text" value={this.state.newItem} placeholder="Thêm việc cần làm ....." onKeyUp={this.onKeyUp.bind(this)} onChange={this.onChange.bind(this)} />
         </div>
-        { // toán tử && : a && b , a truthy => trả b, a falsy => trả a
-          this.state.todoItems.length > 0 && this.state.todoItems.map((item, index) => (<TodoItem key={index} item={item} onClick={this.onItemClicked(item)} />))
-        }
-        {
-          this.state.todoItems.length === 0 && 'Nothing'
-        }
-        <TrafficLight />
+        <div class="row">
+          <div className="col-12">
+            { // toán tử && : a && b , a truthy => trả b, a falsy => trả a
+              this.state.todoItems.length > 0 && this.state.todoItems.map((item, index) =>
+                (<TodoItem key={index} item={item} onClick={this.onItemClicked(item)} />)
+              )
+            }
+            {
+              this.state.todoItems.length === 0 && 'Nothing'
+            }
+          </div>
+          <div className="col-12">
+            <TrafficLight />
+          </div>
+        </div>
       </div>
     );
   }
