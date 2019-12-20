@@ -72,7 +72,7 @@ class App extends Component {
         <p id="react-version">{React.version}</p>
         <div className="Header">
           <img src={DownArrow} width={32} />
-          <Input id="firstInput" type="text" value={this.state.newItem} placeholder="Thêm việc cần làm ....." onKeyUp={this.onKeyUp.bind(this)} onChange={this.onChange.bind(this)} />
+          <Input id="firstInput" type="text" value={this.state.newItem} placeholder="Add Task ....." onKeyUp={this.onKeyUp.bind(this)} onChange={this.onChange.bind(this)} />
         </div>
         <div class="row">
           <div className="col-12">

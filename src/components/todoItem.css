@@ -13,8 +13,12 @@
 .TodoItem > p {
     margin: 0;
     flex-grow: 1;
+    margin: 10px 0 10px 0;
 }
 .TodoItem-complete > p{
     text-decoration: line-through;
     opacity: .3;
+}
+.TodoItem > img {
+    margin: 10px 0 10px 0;
 }
